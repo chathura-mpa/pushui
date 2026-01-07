@@ -75,6 +75,7 @@ export const initCommand = new Command('init')
                 },
                 storybook: {
                     enabled: responses.storybookEnabled,
+                    path: defaultConfig.storybook.path,
                     autoGenerate: responses.storybookEnabled,
                 },
             };
@@ -133,7 +134,7 @@ export const initCommand = new Command('init')
  * Generate the pushui.config.ts file content
  */
 function generateConfigFile(config: PushUIConfig): string {
-    return `import { defineConfig } from '@marketpushapps/pushui';
+    return `import { defineConfig } from '@chathura-mpa/pushui';
 
 export default defineConfig({
   // Where to install components

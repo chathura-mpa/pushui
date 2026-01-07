@@ -1,5 +1,5 @@
 {
-    "name": "@marketpushapps/pushui",
+    "name": "@chathura-mpa/pushui",
     "version": "1.0.0",
     "description": "CLI for adding UI components to Wix CLI projects",
     "type": "module",
@@ -25,7 +25,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/marketpushapps/pushui.git"
+        "url": "git+https://github.com/chathura-mpa/pushui.git"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"

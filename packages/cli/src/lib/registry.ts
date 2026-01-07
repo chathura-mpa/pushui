@@ -7,7 +7,7 @@ import { logger } from './logger.js';
 
 // Default registry URL - points to GitHub raw
 const DEFAULT_REGISTRY_URL =
-    'https://raw.githubusercontent.com/marketpushapps/pushui/main/registry';
+    'https://raw.githubusercontent.com/chathura-mpa/pushui/main/registry';
 
 // Cache directory for registry
 const CACHE_DIR = path.join(os.homedir(), '.pushui', 'cache');
