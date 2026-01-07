@@ -1,0 +1,57 @@
+{
+    "name": "@marketpushapps/pushui",
+    "version": "1.0.0",
+    "description": "CLI for adding UI components to Wix CLI projects",
+    "type": "module",
+    "main": "dist/index.js",
+    "bin": {
+        "pushui": "./dist/index.js"
+    },
+    "scripts": {
+        "build": "tsup src/index.ts --format esm --dts --clean",
+        "dev": "tsx src/index.ts",
+        "prepublishOnly": "npm run build",
+        "typecheck": "tsc --noEmit"
+    },
+    "keywords": [
+        "ui",
+        "components",
+        "cli",
+        "tailwind",
+        "wix",
+        "design-system"
+    ],
+    "author": "Market Push Apps",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marketpushapps/pushui.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "commander": "^12.1.0",
+        "prompts": "^2.4.2",
+        "chalk": "^5.3.0",
+        "ora": "^8.0.1",
+        "fs-extra": "^11.2.0",
+        "zod": "^3.23.8",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^20.14.0",
+        "@types/prompts": "^2.4.9",
+        "tsup": "^8.1.0",
+        "tsx": "^4.15.0",
+        "typescript": "^5.4.5"
+    },
+    "files": [
+        "dist",
+        "templates"
+    ],
+    "engines": {
+        "node": ">=18"
+    }
+}

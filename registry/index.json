@@ -1,0 +1,84 @@
+{
+    "version": "1.0.0",
+    "components": {
+        "button": {
+            "name": "button",
+            "version": "1.0.0",
+            "description": "A versatile button component with multiple variants and sizes",
+            "type": "registry:ui",
+            "files": [
+                {
+                    "path": "button.tsx",
+                    "type": "component"
+                }
+            ],
+            "dependencies": {
+                "npm": [
+                    "class-variance-authority",
+                    "clsx",
+                    "tailwind-merge"
+                ]
+            },
+            "registryDependencies": [
+                "utils"
+            ]
+        },
+        "card": {
+            "name": "card",
+            "version": "1.0.0",
+            "description": "A flexible card container with header, content, and footer sections",
+            "type": "registry:ui",
+            "files": [
+                {
+                    "path": "card.tsx",
+                    "type": "component"
+                }
+            ],
+            "dependencies": {
+                "npm": [
+                    "clsx",
+                    "tailwind-merge"
+                ]
+            },
+            "registryDependencies": [
+                "utils"
+            ]
+        },
+        "input": {
+            "name": "input",
+            "version": "1.0.0",
+            "description": "A styled input component with various states",
+            "type": "registry:ui",
+            "files": [
+                {
+                    "path": "input.tsx",
+                    "type": "component"
+                }
+            ],
+            "dependencies": {
+                "npm": [
+                    "clsx",
+                    "tailwind-merge"
+                ]
+            },
+            "registryDependencies": [
+                "utils"
+            ]
+        }
+    },
+    "utils": {
+        "utils": {
+            "name": "utils",
+            "type": "registry:util",
+            "files": [
+                "utils.ts"
+            ],
+            "dependencies": {
+                "npm": [
+                    "clsx",
+                    "tailwind-merge"
+                ]
+            }
+        }
+    }
+}
