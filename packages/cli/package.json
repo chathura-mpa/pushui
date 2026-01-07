@@ -1,5 +1,5 @@
 {
-    "name": "@chathura-mpa/pushui",
+    "name": "@marketpushapps/pushui",
     "version": "1.0.0",
     "description": "CLI for adding UI components to Wix CLI projects",
     "type": "module",

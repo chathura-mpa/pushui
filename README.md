@@ -8,35 +8,35 @@ A component library CLI built with Wix Design System patterns and Tailwind CSS.
 
 Add to your project's `.npmrc`:
 ```
-@chathura-mpa:registry=https://npm.pkg.github.com
+@marketpushapps:registry=https://npm.pkg.github.com
 ```
 
 Then authenticate once:
 ```bash
-npm login --scope=@chathura-mpa --registry=https://npm.pkg.github.com
+npm login --scope=@marketpushapps --registry=https://npm.pkg.github.com
 ```
 
 ### Usage
 
 Initialize in your Wix CLI project:
 ```bash
-npx @chathura-mpa/pushui init
+npx @marketpushapps/pushui init
 ```
 
 Add components:
 ```bash
-npx @chathura-mpa/pushui add button
-npx @chathura-mpa/pushui add card input
+npx @marketpushapps/pushui add button
+npx @marketpushapps/pushui add card input
 ```
 
 Or use the interactive selector:
 ```bash
-npx @chathura-mpa/pushui add
+npx @marketpushapps/pushui add
 ```
 
 List available components:
 ```bash
-npx @chathura-mpa/pushui list
+npx @marketpushapps/pushui list
 ```
 
 ## Configuration
@@ -44,7 +44,7 @@ npx @chathura-mpa/pushui list
 After running `init`, a `pushui.config.ts` file will be created:
 
 ```typescript
-import { defineConfig } from '@chathura-mpa/pushui';
+import { defineConfig } from '@marketpushapps/pushui';
 
 export default defineConfig({
   componentPath: 'src/components/ui',

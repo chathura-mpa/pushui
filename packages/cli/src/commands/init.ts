@@ -134,7 +134,7 @@ export const initCommand = new Command('init')
  * Generate the pushui.config.ts file content
  */
 function generateConfigFile(config: PushUIConfig): string {
-    return `import { defineConfig } from '@chathura-mpa/pushui';
+    return `import { defineConfig } from '@marketpushapps/pushui';
 
 export default defineConfig({
   // Where to install components
